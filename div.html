@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static {
+
+            position: static;
+            border: 3px solid #73AD21;
+            background-color: burlywood;
+        }
+
+        .relative {
+            position: relative;
+            left: 30px;
+            margin: 5px;
+            border: 3px solid #73AD21;
+        }
+
+        .fixed {
+            position: fixed;
+            border: 10px solid chartreuse;
+            background-color: gold;
+            right: 0;
+            top: 0;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            border: 3px solid #73AD21;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="background-color: pink; width: 75%; height: 200px" margin-top: 50px>
+
+        <p style="padding: 50px; position: fixed;">Expertzlab</p>
+
+    </div>
+
+    <div class="static">
+        This element is positioned Static.
+    </div>
+    <div class="relative">
+        This element is positioned Relative.
+    </div>
+
+    <div class="fixed">
+        You just want my attention.
+
+    </div>
+
+    <div class="fixed">
+        <div class="absolute">
+            Absolutely positioned.
+        </div>
+    </div>
+</body>
+
+</html>

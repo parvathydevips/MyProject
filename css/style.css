@@ -1,0 +1,21 @@
+.row1:nth-child(even){
+    background-color: greenyellow;
+
+}
+.row1:nth-child(odd){
+    background-color: pink;
+
+}
+.row1:hover{
+    background-color: blue;
+}
+
+.head {
+    background-color: mediumaquamarine;
+}
+
+.head:hover {
+    background-color: green;
+}
+
+

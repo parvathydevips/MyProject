@@ -1,0 +1,23 @@
+div {
+    background-color: teal;
+    width: 100%;
+    height: 500px;
+}
+
+p {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.demo{
+    background-color: pink;
+}
+
+.highlight{
+    font-style: italic; color: chocolate;
+}
+
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
